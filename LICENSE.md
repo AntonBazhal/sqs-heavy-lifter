@@ -1,7 +1,3 @@
-# sqs-heavy-lifter
-
-## License
-
 The MIT License (MIT)
 
 Copyright (c) 2017 Anton Bazhal
