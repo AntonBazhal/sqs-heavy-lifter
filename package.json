@@ -1,0 +1,32 @@
+{
+  "name": "sqs-heavy-lifter",
+  "version": "1.0.0",
+  "description": "Module that allows to send and receive large messages using Amazon Simple Queue Service (SQS)",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/AntonBazhal/sqs-heavy-lifter.git"
+  },
+	"keywords": [
+    "sqs",
+    "aws",
+    "aws sqs",
+    "large",
+    "message",
+    "payload",
+    "send",
+		"publish",
+		"receive"
+  ],
+  "main": "index.js",
+	"scripts": {
+    "preinstall": "npm prune",
+    "lint": "eslint .",
+    "test": "istanbul cover node_modules/mocha/bin/_mocha --",
+    "posttest": "npm run lint"
+  },
+  "author": {
+    "name": "Anton Bazhal",
+    "email": "am.bazhal@gmail.com"
+  },
+  "license": "MIT"
+}
